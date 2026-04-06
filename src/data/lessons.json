@@ -1,0 +1,362 @@
+[
+  {
+    "id": "event-24640@boolean.careers",
+    "title": "101 - Intro corso",
+    "start": "2026-03-17T17:30:00.000Z",
+    "end": "2026-03-17T20:00:00.000Z"
+  },
+  {
+    "id": "event-24689@boolean.careers",
+    "title": "102 - Git, GitHub e VS Code",
+    "start": "2026-03-19T17:30:00.000Z",
+    "end": "2026-03-19T20:00:00.000Z"
+  },
+  {
+    "id": "event-24690@boolean.careers",
+    "title": "103 - HTML",
+    "start": "2026-03-21T08:00:00.000Z",
+    "end": "2026-03-21T12:00:00.000Z"
+  },
+  {
+    "id": "event-24692@boolean.careers",
+    "title": "26.104 - CSS Basi e Box Model",
+    "start": "2026-03-24T17:30:00.000Z",
+    "end": "2026-03-24T20:00:00.000Z"
+  },
+  {
+    "id": "event-24694@boolean.careers",
+    "title": "26.104 - CSS Basi e Box Model",
+    "start": "2026-03-26T17:30:00.000Z",
+    "end": "2026-03-26T20:00:00.000Z"
+  },
+  {
+    "id": "event-24697@boolean.careers",
+    "title": "26.105 - CSS Proprietà principali e Position",
+    "start": "2026-03-31T16:30:00.000Z",
+    "end": "2026-03-31T19:00:00.000Z"
+  },
+  {
+    "id": "event-24699@boolean.careers",
+    "title": "26.106 - Ereditarietà, Specificità e Selettori",
+    "start": "2026-04-02T16:30:00.000Z",
+    "end": "2026-04-02T19:00:00.000Z"
+  },
+  {
+    "id": "event-24701@boolean.careers",
+    "title": "26.107 - Flexbox",
+    "start": "2026-04-09T16:30:00.000Z",
+    "end": "2026-04-09T19:00:00.000Z"
+  },
+  {
+    "id": "event-24704@boolean.careers",
+    "title": "26.107 - Flexbox",
+    "start": "2026-04-14T16:30:00.000Z",
+    "end": "2026-04-14T19:00:00.000Z"
+  },
+  {
+    "id": "event-24706@boolean.careers",
+    "title": "26.109 -  Desktop Layout",
+    "start": "2026-04-16T16:30:00.000Z",
+    "end": "2026-04-16T19:00:00.000Z"
+  },
+  {
+    "id": "event-24707@boolean.careers",
+    "title": "26.110 - Media query",
+    "start": "2026-04-18T07:00:00.000Z",
+    "end": "2026-04-18T11:00:00.000Z"
+  },
+  {
+    "id": "event-24709@boolean.careers",
+    "title": "26.111 - Bootstrap 5",
+    "start": "2026-04-21T16:30:00.000Z",
+    "end": "2026-04-21T19:00:00.000Z"
+  },
+  {
+    "id": "event-24711@boolean.careers",
+    "title": "26.112 - Bootstrap Dashboard",
+    "start": "2026-04-23T16:30:00.000Z",
+    "end": "2026-04-23T19:00:00.000Z"
+  },
+  {
+    "id": "event-24713@boolean.careers",
+    "title": "26.112 - Bootstrap Dashboard",
+    "start": "2026-04-28T16:30:00.000Z",
+    "end": "2026-04-28T19:00:00.000Z"
+  },
+  {
+    "id": "event-24715@boolean.careers",
+    "title": "233 - Intro programmazione",
+    "start": "2026-04-30T16:30:00.000Z",
+    "end": "2026-04-30T19:00:00.000Z"
+  },
+  {
+    "id": "event-24717@boolean.careers",
+    "title": "234 - JS Intro e variabili",
+    "start": "2026-05-05T16:30:00.000Z",
+    "end": "2026-05-05T19:00:00.000Z"
+  },
+  {
+    "id": "event-24719@boolean.careers",
+    "title": "235 - JS Istruzioni condizionali",
+    "start": "2026-05-07T16:30:00.000Z",
+    "end": "2026-05-07T19:00:00.000Z"
+  },
+  {
+    "id": "event-24722@boolean.careers",
+    "title": "237 - JS Ciclo For",
+    "start": "2026-05-12T16:30:00.000Z",
+    "end": "2026-05-12T19:00:00.000Z"
+  },
+  {
+    "id": "event-24724@boolean.careers",
+    "title": "238 - JS Array 1",
+    "start": "2026-05-14T16:30:00.000Z",
+    "end": "2026-05-14T19:00:00.000Z"
+  },
+  {
+    "id": "event-24725@boolean.careers",
+    "title": "241 - JS Functions 1",
+    "start": "2026-05-16T07:00:00.000Z",
+    "end": "2026-05-16T11:00:00.000Z"
+  },
+  {
+    "id": "event-24727@boolean.careers",
+    "title": "242 - JS Functions 2",
+    "start": "2026-05-19T16:30:00.000Z",
+    "end": "2026-05-19T19:00:00.000Z"
+  },
+  {
+    "id": "event-24729@boolean.careers",
+    "title": "JS Extra",
+    "start": "2026-05-21T16:30:00.000Z",
+    "end": "2026-05-21T19:00:00.000Z"
+  },
+  {
+    "id": "event-24732@boolean.careers",
+    "title": "236 - JS Manipolazione del DOM 1",
+    "start": "2026-05-26T16:30:00.000Z",
+    "end": "2026-05-26T19:00:00.000Z"
+  },
+  {
+    "id": "event-24734@boolean.careers",
+    "title": "236B - JS Manipolazione del DOM 2",
+    "start": "2026-05-28T16:30:00.000Z",
+    "end": "2026-05-28T19:00:00.000Z"
+  },
+  {
+    "id": "event-24736@boolean.careers",
+    "title": "244 - JS Objects 1",
+    "start": "2026-06-04T16:30:00.000Z",
+    "end": "2026-06-04T19:00:00.000Z"
+  },
+  {
+    "id": "event-24739@boolean.careers",
+    "title": "213 - JS Objects 2 + DOM",
+    "start": "2026-06-09T16:30:00.000Z",
+    "end": "2026-06-09T19:00:00.000Z"
+  },
+  {
+    "id": "event-24741@boolean.careers",
+    "title": "JS Extra",
+    "start": "2026-06-11T16:30:00.000Z",
+    "end": "2026-06-11T19:00:00.000Z"
+  },
+  {
+    "id": "event-24742@boolean.careers",
+    "title": "214 - JS Array Methods",
+    "start": "2026-06-13T07:00:00.000Z",
+    "end": "2026-06-13T11:00:00.000Z"
+  },
+  {
+    "id": "event-24744@boolean.careers",
+    "title": "215 - HTTP, Chiamate AJAX ed API",
+    "start": "2026-06-16T16:30:00.000Z",
+    "end": "2026-06-16T19:00:00.000Z"
+  },
+  {
+    "id": "event-24746@boolean.careers",
+    "title": "JS Extra",
+    "start": "2026-06-18T16:30:00.000Z",
+    "end": "2026-06-18T19:00:00.000Z"
+  },
+  {
+    "id": "event-24747@boolean.careers",
+    "title": "824 - Node & Vite: Introduzione",
+    "start": "2026-06-27T07:00:00.000Z",
+    "end": "2026-06-27T11:00:00.000Z"
+  },
+  {
+    "id": "event-24749@boolean.careers",
+    "title": "811 - React JSX & Componenti",
+    "start": "2026-06-30T16:30:00.000Z",
+    "end": "2026-06-30T19:00:00.000Z"
+  },
+  {
+    "id": "event-24751@boolean.careers",
+    "title": "822 - React: Iterazioni in JSX",
+    "start": "2026-07-02T16:30:00.000Z",
+    "end": "2026-07-02T19:00:00.000Z"
+  },
+  {
+    "id": "event-24754@boolean.careers",
+    "title": "823 - React: Props",
+    "start": "2026-07-07T16:30:00.000Z",
+    "end": "2026-07-07T19:00:00.000Z"
+  },
+  {
+    "id": "event-24756@boolean.careers",
+    "title": "React extra",
+    "start": "2026-07-09T16:30:00.000Z",
+    "end": "2026-07-09T19:00:00.000Z"
+  },
+  {
+    "id": "event-24757@boolean.careers",
+    "title": "804 - React: useState",
+    "start": "2026-07-11T07:00:00.000Z",
+    "end": "2026-07-11T11:00:00.000Z"
+  },
+  {
+    "id": "event-24759@boolean.careers",
+    "title": "805 - React: Data Binding",
+    "start": "2026-07-14T16:30:00.000Z",
+    "end": "2026-07-14T19:00:00.000Z"
+  },
+  {
+    "id": "event-24761@boolean.careers",
+    "title": "816 - React: useEffect",
+    "start": "2026-07-16T16:30:00.000Z",
+    "end": "2026-07-16T19:00:00.000Z"
+  },
+  {
+    "id": "event-24764@boolean.careers",
+    "title": "814- React: Data Fetching",
+    "start": "2026-07-21T16:30:00.000Z",
+    "end": "2026-07-21T19:00:00.000Z"
+  },
+  {
+    "id": "event-24766@boolean.careers",
+    "title": "817 - React: Form & POST",
+    "start": "2026-07-23T16:30:00.000Z",
+    "end": "2026-07-23T19:00:00.000Z"
+  },
+  {
+    "id": "event-24767@boolean.careers",
+    "title": "React extra",
+    "start": "2026-07-25T07:00:00.000Z",
+    "end": "2026-07-25T11:00:00.000Z"
+  },
+  {
+    "id": "event-24769@boolean.careers",
+    "title": "809 - React Router",
+    "start": "2026-07-28T16:30:00.000Z",
+    "end": "2026-07-28T19:00:00.000Z"
+  },
+  {
+    "id": "event-24771@boolean.careers",
+    "title": "809 - React Router",
+    "start": "2026-07-30T16:30:00.000Z",
+    "end": "2026-07-30T19:00:00.000Z"
+  },
+  {
+    "id": "event-24774@boolean.careers",
+    "title": "810 - React: Context API 1",
+    "start": "2026-08-04T16:30:00.000Z",
+    "end": "2026-08-04T19:00:00.000Z"
+  },
+  {
+    "id": "event-24776@boolean.careers",
+    "title": "810 - React: Context API 2",
+    "start": "2026-08-06T16:30:00.000Z",
+    "end": "2026-08-06T19:00:00.000Z"
+  },
+  {
+    "id": "event-24778@boolean.careers",
+    "title": "408 - Node ed Npm",
+    "start": "2026-08-25T16:30:00.000Z",
+    "end": "2026-08-25T19:00:00.000Z"
+  },
+  {
+    "id": "event-24780@boolean.careers",
+    "title": "403 - Introduzione ad Express",
+    "start": "2026-08-27T16:30:00.000Z",
+    "end": "2026-08-27T19:00:00.000Z"
+  },
+  {
+    "id": "event-24783@boolean.careers",
+    "title": "404 - Routing",
+    "start": "2026-09-01T16:30:00.000Z",
+    "end": "2026-09-01T19:00:00.000Z"
+  },
+  {
+    "id": "event-24785@boolean.careers",
+    "title": "405 - CRUD 1 (Index, Show, Delete)",
+    "start": "2026-09-03T16:30:00.000Z",
+    "end": "2026-09-03T19:00:00.000Z"
+  },
+  {
+    "id": "event-24786@boolean.careers",
+    "title": "406 - CRUD 2 (Store, Update)",
+    "start": "2026-09-05T07:00:00.000Z",
+    "end": "2026-09-05T11:00:00.000Z"
+  },
+  {
+    "id": "event-24788@boolean.careers",
+    "title": "407 - Middlewares",
+    "start": "2026-09-08T16:30:00.000Z",
+    "end": "2026-09-08T19:00:00.000Z"
+  },
+  {
+    "id": "event-24790@boolean.careers",
+    "title": "501 - DB Intro",
+    "start": "2026-09-10T16:30:00.000Z",
+    "end": "2026-09-10T19:00:00.000Z"
+  },
+  {
+    "id": "event-24793@boolean.careers",
+    "title": "502 - DB Relazioni",
+    "start": "2026-09-15T16:30:00.000Z",
+    "end": "2026-09-15T19:00:00.000Z"
+  },
+  {
+    "id": "event-24795@boolean.careers",
+    "title": "503 - DB MySQL",
+    "start": "2026-09-17T16:30:00.000Z",
+    "end": "2026-09-17T19:00:00.000Z"
+  },
+  {
+    "id": "event-24796@boolean.careers",
+    "title": "504 - DB MySQL Join",
+    "start": "2026-09-19T07:00:00.000Z",
+    "end": "2026-09-19T11:00:00.000Z"
+  },
+  {
+    "id": "event-24798@boolean.careers",
+    "title": "505 - DB - SQL client node",
+    "start": "2026-09-22T16:30:00.000Z",
+    "end": "2026-09-22T19:00:00.000Z"
+  },
+  {
+    "id": "event-24800@boolean.careers",
+    "title": "DB Extra",
+    "start": "2026-09-24T16:30:00.000Z",
+    "end": "2026-09-24T19:00:00.000Z"
+  },
+  {
+    "id": "event-24803@boolean.careers",
+    "title": "901 - Web App (BE Setup)",
+    "start": "2026-09-29T16:30:00.000Z",
+    "end": "2026-09-29T19:00:00.000Z"
+  },
+  {
+    "id": "event-24805@boolean.careers",
+    "title": "902 - Web App (Frontend)",
+    "start": "2026-10-01T16:30:00.000Z",
+    "end": "2026-10-01T19:00:00.000Z"
+  },
+  {
+    "id": "event-24806@boolean.careers",
+    "title": "903 - Web App (Reviews Form)",
+    "start": "2026-10-03T07:00:00.000Z",
+    "end": "2026-10-03T11:00:00.000Z"
+  }
+]
