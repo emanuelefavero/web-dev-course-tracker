@@ -1,3 +1,5 @@
+import { ModeToggle } from '@/components/theme/mode-toggle'
+import { ThemeProvider } from '@/components/theme/theme-provider'
 import type { Metadata } from 'next'
 import './globals.css'
 
@@ -12,9 +14,32 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang='en' className='font-sans antialiased'>
+    <html lang='en' className='font-sans antialiased' suppressHydrationWarning>
       <body className='bg-background text-foreground'>
-        <main>{children}</main>
+        <ThemeProvider
+          attribute='class'
+          defaultTheme='system'
+          enableSystem
+          disableTransitionOnChange
+        >
+          {/* Header */}
+          <header className='border-b border-border'>
+            <div className='mx-auto flex max-w-350 items-center justify-between gap-4 px-4.5 py-3'>
+              {/* Logo */}
+              <div className='font-mono text-xl font-extrabold'>
+                WDC<span className='text-primary-text'>T</span>
+              </div>
+
+              {/* Theme Toggle */}
+              <ModeToggle />
+            </div>
+          </header>
+
+          {/* Main */}
+          <main className='mx-auto min-h-screen max-w-350 border-r border-l border-border px-4.5 py-26'>
+            {children}
+          </main>
+        </ThemeProvider>
       </body>
     </html>
   )
