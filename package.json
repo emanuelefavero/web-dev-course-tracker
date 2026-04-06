@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "sync-lessons": "node --experimental-strip-types scripts/sync-lessons.ts"
+    "sync-lessons": "tsx scripts/sync-lessons.ts"
   },
   "dependencies": {
     "clsx": "^2.1.1",
@@ -29,6 +29,7 @@
     "prettier-plugin-organize-imports": "^4.3.0",
     "prettier-plugin-tailwindcss": "^0.7.2",
     "tailwindcss": "^4",
+    "tsx": "^4.21.0",
     "typescript": "^5"
   }
 }
