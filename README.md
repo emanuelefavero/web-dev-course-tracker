@@ -1,6 +1,6 @@
 # Web Dev Course Tracker
 
-This is a **minimal Next.js app** to track progress for the Master Web Dev course from Boolean.
+This is a personal **Next.js** app to track progress in my **Master Web Dev** course that I'm taking from March to October 2026.
 
 ## How to Use
 
