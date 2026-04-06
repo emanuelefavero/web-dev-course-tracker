@@ -9,3 +9,7 @@ This is a **minimal Next.js app** to track progress for the Master Web Dev cours
 3. Run `npm run sync-lessons` to fetch the latest calendar and generate `lessons.json
 4. Run `npm run dev` to start the development server
 5. Open `http://localhost:3000` in your browser
+
+## License
+
+- [MIT](LICENSE.md)
