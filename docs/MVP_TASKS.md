@@ -32,23 +32,6 @@ This file must be updated whenever the active task changes status.
 
 ## In Progress
 
-### T01 - Install MVP UI dependencies
-
-Goal: Add the minimal library stack needed for the dashboard UI.
-
-Acceptance:
-
-- shadcn/ui is initialized for this app
-- `next-themes` is installed for theme switching
-- `lucide-react` is installed for icons
-- `recharts@^3` is installed for the MVP chart
-
-Depends on:
-
-- none
-
-## Backlog
-
 ### T02 - Update app metadata and base shell
 
 Goal: Replace the default metadata and create the base page shell used by the dashboard.
@@ -62,6 +45,8 @@ Acceptance:
 Depends on:
 
 - T01
+
+## Backlog
 
 ### T03 - Add theme provider and dark mode toggle
 
@@ -284,7 +269,24 @@ Depends on:
 
 ## Done
 
-- None yet
+### T01 - Install MVP UI dependencies
+
+Goal: Add the minimal library stack needed for the dashboard UI.
+
+Acceptance:
+
+- shadcn/ui is initialized for this app
+- `next-themes` is installed for theme switching
+- `lucide-react` is installed for icons
+- `recharts@^3` is installed for the MVP chart
+
+Depends on:
+
+- none
+
+Completion note:
+
+- Completed across the last 3 commits: shadcn/ui initialized, `next-themes` and dark mode toggle set up, `lucide-react` installed, shadcn chart component added, and Recharts v3 installed.
 
 ## Later
 
