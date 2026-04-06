@@ -12,8 +12,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang='en'>
-      <body className='bg-background font-sans text-foreground antialiased'>
+    <html lang='en' className='font-sans antialiased'>
+      <body className='bg-background text-foreground'>
         <main>{children}</main>
       </body>
     </html>
