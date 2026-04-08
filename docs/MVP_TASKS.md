@@ -34,10 +34,6 @@ This file must be updated whenever the active task changes status.
 
 ## In Progress
 
-- None currently
-
-## Backlog
-
 ### T05 - Add lesson timeline status helpers
 
 Goal: Derive timeline-ready lesson items with display status and grouping information.
@@ -51,6 +47,8 @@ Acceptance:
 Depends on:
 
 - T04
+
+## Backlog
 
 ### T06 - Add minimal display formatting helpers
 
