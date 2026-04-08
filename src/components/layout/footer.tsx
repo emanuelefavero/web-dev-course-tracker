@@ -9,7 +9,7 @@ export function Footer() {
     <footer
       className={cn(
         pageContainer,
-        'border-t-2 border-r border-l-2 border-solid [border-top-style:dashed] border-border bg-background-elevated py-6',
+        'border-t-2 border-r border-l-2 border-double [border-top-style:dashed] border-muted bg-background-elevated py-6',
       )}
     >
       <div className='flex items-center justify-between gap-4'>

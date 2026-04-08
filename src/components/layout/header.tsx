@@ -8,7 +8,7 @@ export function Header() {
       <div
         className={cn(
           pageContainer,
-          'flex items-center justify-between gap-4 py-3',
+          'mb-1.5 flex items-center justify-between gap-4 border-r-2 border-b-2 border-muted py-3',
         )}
       >
         {/* Logo */}
