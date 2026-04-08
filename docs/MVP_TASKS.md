@@ -19,6 +19,8 @@ This file must be updated whenever the active task changes status.
 - Keep only one feature task in `In Progress` at a time unless tasks are clearly independent.
 - Move tasks across sections instead of duplicating them.
 - Add a short completion note when a task moves to `Done`.
+- Keep `Done` entries compressed to the task title plus a short completion note.
+- Keep `Done` entries ordered by task number in ascending order.
 - Keep tasks feature-sized. Each task should have a clear goal and acceptance criteria that can be objectively verified.
 - Use acceptance criteria as the definition of done.
 
@@ -31,36 +33,6 @@ This file must be updated whenever the active task changes status.
 5. Polish responsiveness and verify correctness
 
 ## In Progress
-
-### T02 - Update app metadata and base shell
-
-Goal: Replace the default metadata and create the base page shell used by the dashboard.
-
-Acceptance:
-
-- `layout.tsx` has the correct app title and description
-- the page uses a centered container with sensible spacing
-- the shell includes a header area for the title, subtitle, and theme toggle
-
-Depends on:
-
-- T01
-
-## Backlog
-
-### T03 - Add theme provider and dark mode toggle
-
-Goal: Add dark mode support from the start using `next-themes` and a header toggle.
-
-Acceptance:
-
-- light and dark mode both work
-- there are no hydration mismatch issues
-- the toggle is visible and usable in the header
-
-Depends on:
-
-- T01
 
 ### T04 - Create lesson stats utility
 
@@ -78,6 +50,8 @@ Acceptance:
 Depends on:
 
 - none
+
+## Backlog
 
 ### T05 - Add lesson timeline status helpers
 
@@ -271,22 +245,15 @@ Depends on:
 
 ### T01 - Install MVP UI dependencies
 
-Goal: Add the minimal library stack needed for the dashboard UI.
+Completed: shadcn/ui initialized, `next-themes` and `lucide-react` installed, and chart dependencies added.
 
-Acceptance:
+### T02 - Update app metadata and base shell
 
-- shadcn/ui is initialized for this app
-- `next-themes` is installed for theme switching
-- `lucide-react` is installed for icons
-- `recharts@^3` is installed for the MVP chart
+Completed: app metadata updated, centered shell established, layout components extracted, and footer added.
 
-Depends on:
+### T03 - Add theme provider and dark mode toggle
 
-- none
-
-Completion note:
-
-- Completed across the last 3 commits: shadcn/ui initialized, `next-themes` and dark mode toggle set up, `lucide-react` installed, shadcn chart component added, and Recharts v3 installed.
+Completed: theme provider, dark mode toggle, and dark mode-ready shell styling added without hydration issues.
 
 ## Later
 
