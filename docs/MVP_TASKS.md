@@ -34,22 +34,7 @@ This file must be updated whenever the active task changes status.
 
 ## In Progress
 
-### T04 - Create lesson stats utility
-
-Goal: Build a minimal server-side utility that reads `src/data/lessons.json` and computes the core dashboard metrics.
-
-Acceptance:
-
-- total lessons is computed correctly
-- completed lessons is computed correctly
-- remaining lessons is computed correctly
-- total, completed, and remaining hours are computed correctly
-- progress percentage is computed correctly
-- next lesson is derived correctly
-
-Depends on:
-
-- none
+- None currently
 
 ## Backlog
 
@@ -254,6 +239,10 @@ Completed: app metadata updated, centered shell established, layout components e
 ### T03 - Add theme provider and dark mode toggle
 
 Completed: theme provider, dark mode toggle, and dark mode-ready shell styling added without hydration issues.
+
+### T04 - Create lesson stats utility
+
+Completed: added a server-side lesson stats utility with a pure stats function, a JSON-backed helper, and verified totals against the current lesson dataset.
 
 ## Later
 
