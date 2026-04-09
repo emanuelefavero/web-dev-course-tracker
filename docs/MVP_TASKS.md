@@ -244,10 +244,12 @@ Completed: added a server-side lesson stats utility with a pure stats function, 
 
 ## Later
 
-### L01 - Add more charts if the first chart proves useful
+### L01 - Add in-progress lesson support once the first dashboard UI is stable
 
-### L02 - Add filtering or collapsing to the timeline if the lesson list becomes harder to scan
+### L02 - Add more charts if the first chart proves useful
 
-### L03 - Add a visible "last synced" data timestamp if the raw sync time becomes important to users
+### L03 - Add filtering or collapsing to the timeline if the lesson list becomes harder to scan
 
-### L04 - Add per-lesson detail views only if the homepage becomes too dense
+### L04 - Add a visible "last synced" data timestamp if the raw sync time becomes important to users
+
+### L05 - Add per-lesson detail views only if the homepage becomes too dense

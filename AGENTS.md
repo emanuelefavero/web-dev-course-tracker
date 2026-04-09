@@ -169,6 +169,7 @@ scripts/sync-lessons.ts
 
 - Completed lesson → `end < now`
 - Remaining lesson → `start > now`
+- Note: In-progress lessons are intentionally excluded for now and can be added later once the first dashboard UI is in place.
 
 Metrics:
 

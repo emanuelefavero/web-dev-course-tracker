@@ -25,10 +25,16 @@ function getLessonHours(lesson: Lesson) {
   return (end.getTime() - start.getTime()) / (1000 * 60 * 60)
 }
 
+/**
+ * Computes derived lesson metrics from a lesson array and a reference date.
+ */
 export function getLessonStats(lessons: Lesson[], now: Date): LessonStats {
+  // Lessons that have ended before 'now' are considered completed
   const completedLessonsList = lessons.filter(
     (lesson) => new Date(lesson.end) < now,
   )
+
+  // Lessons that haven't started yet are considered remaining, even if they might be in progress
   const remainingLessonsList = lessons.filter(
     (lesson) => new Date(lesson.start) > now,
   )
@@ -61,6 +67,11 @@ export function getLessonStats(lessons: Lesson[], now: Date): LessonStats {
   }
 }
 
+/**
+ * Loads lessons from the local JSON source and returns the current derived stats.
+ * @example
+ * const stats = getLessonStatsFromJson()
+ */
 export function getLessonStatsFromJson(now = new Date()) {
   const lessons = lessonsData as Lesson[]
 
