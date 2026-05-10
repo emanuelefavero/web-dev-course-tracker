@@ -38,7 +38,7 @@ export function Footer() {
         {/* GitHub link */}
         <a
           href='https://github.com/emanuelefavero/web-dev-course-tracker'
-          className='group rounded-ful inline-flex items-center justify-center rounded-full bg-link-background p-2.5 text-muted-foreground transition duration-200 outline-none select-none hover:text-foreground focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px'
+          className='group inline-flex items-center justify-center rounded-full bg-link-background p-2.5 text-muted-foreground transition duration-200 outline-none select-none hover:text-foreground focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px'
           target='_blank'
           rel='noopener noreferrer'
           aria-label='View the source code on GitHub'

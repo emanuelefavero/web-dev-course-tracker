@@ -38,161 +38,7 @@ This file must be updated whenever the active task changes status.
 
 ## Backlog
 
-### T07 - Build homepage server data flow
-
-Goal: Keep the homepage server-rendered and load all dashboard data from `lessons.json`.
-
-Acceptance:
-
-- `src/app/page.tsx` remains a Server Component
-- dashboard data is loaded without client-side fetching
-- the page can render from derived lesson data alone
-
-Depends on:
-
-- T04
-
-### T08 - Add dashboard layout sections
-
-Goal: Create the structural layout of the homepage before final UI polish.
-
-Acceptance:
-
-- the page has dedicated sections for stats, progress, next lesson, chart, and timeline
-- layout works as a readable stacked mobile page and multi-section desktop page
-
-Depends on:
-
-- T07
-
-### T09 - Add summary stat cards
-
-Goal: Show the key metrics at the top of the page.
-
-Acceptance:
-
-- lessons and hours metrics are visible at a glance
-- card labels are unambiguous
-- values match the derived stats utility
-
-Depends on:
-
-- T08
-
-### T10 - Add progress card
-
-Goal: Visualize overall course completion with one strong progress surface.
-
-Acceptance:
-
-- overall completion percentage is prominent
-- progress bar reflects the correct percentage
-- hours completed vs remaining are visually understandable
-
-Depends on:
-
-- T08
-
-### T11 - Add next lesson card
-
-Goal: Make the next scheduled lesson immediately visible.
-
-Acceptance:
-
-- next lesson title is shown clearly
-- date and time are formatted clearly
-- the card visually stands out from the rest of the summary area
-
-Depends on:
-
-- T08
-
-### T12 - Add the single MVP chart
-
-Goal: Add one chart that supports the dashboard without overwhelming it.
-
-Acceptance:
-
-- chart uses shadcn chart patterns and Recharts v3
-- chart data matches the stat cards
-- chart remains understandable in both light and dark mode
-
-Depends on:
-
-- T01
-- T04
-- T08
-
-### T13 - Add chronological lesson timeline
-
-Goal: Show the full course schedule as a readable timeline instead of a calendar.
-
-Acceptance:
-
-- lessons are grouped chronologically by month
-- completed lessons are visually muted or green-accented
-- the next lesson is highlighted
-- upcoming lessons use a distinct non-completed style
-- each lesson shows title, date, weekday, and duration
-
-Depends on:
-
-- T05
-- T06
-- T08
-
-### T14 - Refine responsive layout and visual hierarchy
-
-Goal: Make the dashboard feel coherent and polished on both mobile and desktop.
-
-Acceptance:
-
-- no section feels cramped or awkward on mobile
-- desktop layout has clear hierarchy and spacing
-- typography and color usage feel consistent across the page
-
-Depends on:
-
-- T09
-- T10
-- T11
-- T12
-- T13
-
-### T15 - Verify dashboard correctness against source data
-
-Goal: Confirm that the rendered dashboard is correct relative to `src/data/lessons.json`.
-
-Acceptance:
-
-- metric totals match the lesson data
-- progress percentage is correct
-- next lesson is correct for the current date
-- timeline statuses are correct
-- chart values match the summary cards
-
-Depends on:
-
-- T09
-- T10
-- T11
-- T12
-- T13
-
-### T16 - Final MVP cleanup
-
-Goal: Remove placeholders and leave the MVP in a coherent, ship-ready state.
-
-Acceptance:
-
-- default placeholder text is gone
-- metadata is finalized
-- the page feels complete without obvious rough edges
-
-Depends on:
-
-- T14
-- T15
+- None currently
 
 ## Blocked
 
@@ -223,6 +69,46 @@ Completed: split lesson domain code into `src/lib/lessons/`, added timeline stat
 ### T06 - Add minimal display formatting helpers
 
 Completed: added Rome-local lesson date, month, time range, and duration formatters using built-in `Intl` APIs with no new dependency.
+
+### T07 - Build homepage server data flow
+
+Completed: homepage remains a Server Component, reads local `lessons.json`, opts into request-time rendering for `new Date()`, and derives stats/timeline data without client-side fetching.
+
+### T08 - Add dashboard layout sections
+
+Completed: homepage now has dedicated summary, progress, next lesson, chart, and timeline sections with stacked mobile and multi-section desktop layouts.
+
+### T09 - Add summary stat cards
+
+Completed: added compact stat cards for total lessons, completed lessons/hours, remaining lessons/hours, and total hours using derived stats.
+
+### T10 - Add progress card
+
+Completed: added a prominent completion percentage, accessible progress bar, and completed-vs-remaining hours split.
+
+### T11 - Add next lesson card
+
+Completed: added an emphasized next lesson card with title, Rome-local date, time range, and duration.
+
+### T12 - Add the single MVP chart
+
+Completed: added one shadcn/Recharts stacked bar chart for completed vs remaining lessons and hours, including a visible legend.
+
+### T13 - Add chronological lesson timeline
+
+Completed: added a month-grouped lesson timeline with completed, next, and upcoming status styling plus date, time, and duration.
+
+### T14 - Refine responsive layout and visual hierarchy
+
+Completed: tightened page spacing, verified mobile/desktop screenshots, and kept section hierarchy readable in light and dark modes.
+
+### T15 - Verify dashboard correctness against source data
+
+Completed: verified source-derived metrics, next lesson, timeline statuses, and chart inputs against `src/data/lessons.json` for May 10, 2026.
+
+### T16 - Final MVP cleanup
+
+Completed: removed placeholder homepage content, finalized metadata/viewport theme colors, fixed small UI cleanup items, and confirmed lint, TypeScript, production build, and Playwright checks.
 
 ## Later
 

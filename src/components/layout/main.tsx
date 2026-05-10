@@ -10,7 +10,7 @@ export function Main({ children }: MainProps) {
     <main
       className={cn(
         pageContainer,
-        'min-h-screen border-r border-l border-border py-26',
+        'min-h-screen border-r border-l border-border py-14 sm:py-18',
       )}
     >
       {children}
