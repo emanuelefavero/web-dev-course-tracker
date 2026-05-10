@@ -153,7 +153,10 @@ function ProgressCard({ stats }: { stats: LessonStats }) {
               {stats.completedLessons} of {stats.totalLessons} lessons
             </span>
           </div>
-          <Progress value={stats.progressPercent} aria-label='Course progress' />
+          <Progress
+            value={stats.progressPercent}
+            aria-label='Course progress'
+          />
         </div>
         <div className='space-y-2'>
           <div className='flex justify-between gap-4 text-sm'>
@@ -221,9 +224,10 @@ function LessonTimelineRow({ lesson }: { lesson: LessonTimelineItem }) {
   return (
     <li
       className={cn(
-        'grid gap-3 py-4 [content-visibility:auto] [contain-intrinsic-size:96px] sm:grid-cols-[minmax(0,1fr)_auto]',
+        'grid gap-3 py-4 [contain-intrinsic-size:96px] [content-visibility:auto] sm:grid-cols-[minmax(0,1fr)_auto]',
         lesson.status === 'completed' && 'text-muted-foreground',
-        lesson.status === 'next' && 'rounded-lg bg-primary/5 px-4 ring-1 ring-primary/20',
+        lesson.status === 'next' &&
+          'rounded-lg bg-primary/5 px-4 ring-1 ring-primary/20',
       )}
     >
       <div className='min-w-0 space-y-1'>
@@ -233,7 +237,7 @@ function LessonTimelineRow({ lesson }: { lesson: LessonTimelineItem }) {
             {formatLessonDate(lesson.start)}
           </span>
         </div>
-        <h3 className='break-words font-medium text-foreground'>
+        <h3 className='font-medium wrap-break-word text-foreground'>
           {lesson.title}
         </h3>
       </div>
@@ -298,7 +302,8 @@ export default async function Home() {
           </h1>
           <p className='max-w-2xl text-base leading-7 text-muted-foreground sm:text-lg'>
             Current progress from the local lesson snapshot. Stats use completed
-            lessons that ended before now and remaining lessons that start later.
+            lessons that ended before now and remaining lessons that start
+            later.
           </p>
         </div>
         <p className='text-sm text-muted-foreground'>
