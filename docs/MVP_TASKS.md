@@ -34,19 +34,7 @@ This file must be updated whenever the active task changes status.
 
 ## In Progress
 
-### T05 - Add lesson timeline status helpers
-
-Goal: Derive timeline-ready lesson items with display status and grouping information.
-
-Acceptance:
-
-- each lesson has a status of `completed`, `next`, or `upcoming`
-- lessons can be grouped by month for rendering
-- grouping and status logic use `Europe/Rome`
-
-Depends on:
-
-- T04
+- None currently
 
 ## Backlog
 
@@ -241,6 +229,10 @@ Completed: theme provider, dark mode toggle, and dark mode-ready shell styling a
 ### T04 - Create lesson stats utility
 
 Completed: added a server-side lesson stats utility with a pure stats function, a JSON-backed helper, and verified totals against the current lesson dataset.
+
+### T05 - Add lesson timeline status helpers
+
+Completed: split lesson domain code into `src/lib/lessons/`, added timeline status helpers and month grouping, and verified timeline statuses and grouping against the current dataset.
 
 ## Later
 

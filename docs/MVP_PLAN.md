@@ -66,7 +66,7 @@ This keeps the product useful for you and classmates without turning it into a p
   - compute all derived stats on the server in a small utility module
   - use client components only where required by the chart library and theme toggle
 - Domain structure:
-  - `src/lib/lessons.ts`: load lessons and compute derived stats
+  - `src/lib/lessons/`: keep lesson stats, timeline helpers, and shared lesson types together
   - `src/lib/date.ts` only if formatting starts to repeat; otherwise keep formatting close to usage
   - no global state library
 - Derived data to compute:

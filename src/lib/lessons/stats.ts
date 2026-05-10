@@ -1,23 +1,7 @@
 import lessonsData from '@/data/lessons.json'
+import type { Lesson, LessonStats } from './types'
 
-export type Lesson = {
-  id: string
-  title: string
-  start: string
-  end: string
-}
-
-export type LessonStats = {
-  totalLessons: number
-  completedLessons: number
-  remainingLessons: number
-  totalHours: number
-  completedHours: number
-  remainingHours: number
-  progressPercent: number
-  nextLesson: Lesson | null
-}
-
+// Computes a lesson duration in hours from its start and end timestamps (e.g. 1.5 for a 90-minute lesson).
 function getLessonHours(lesson: Lesson) {
   const start = new Date(lesson.start)
   const end = new Date(lesson.end)
@@ -29,12 +13,12 @@ function getLessonHours(lesson: Lesson) {
  * Computes derived lesson metrics from a lesson array and a reference date.
  */
 export function getLessonStats(lessons: Lesson[], now: Date): LessonStats {
-  // Lessons that have ended before 'now' are considered completed
+  // Lessons that have ended before 'now' are considered completed.
   const completedLessonsList = lessons.filter(
     (lesson) => new Date(lesson.end) < now,
   )
 
-  // Lessons that haven't started yet are considered remaining, even if they might be in progress
+  // Lessons that haven't started yet are considered remaining.
   const remainingLessonsList = lessons.filter(
     (lesson) => new Date(lesson.start) > now,
   )
@@ -69,8 +53,6 @@ export function getLessonStats(lessons: Lesson[], now: Date): LessonStats {
 
 /**
  * Loads lessons from the local JSON source and returns the current derived stats.
- * @example
- * const stats = getLessonStatsFromJson()
  */
 export function getLessonStatsFromJson(now = new Date()) {
   const lessons = lessonsData as Lesson[]
