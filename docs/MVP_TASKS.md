@@ -38,20 +38,6 @@ This file must be updated whenever the active task changes status.
 
 ## Backlog
 
-### T06 - Add minimal display formatting helpers
-
-Goal: Add lightweight formatting helpers only where repeated formatting would otherwise become noisy.
-
-Acceptance:
-
-- lesson dates render in a clear Rome-local format
-- lesson durations render cleanly
-- no unnecessary date library is introduced unless repetition clearly justifies it
-
-Depends on:
-
-- T04
-
 ### T07 - Build homepage server data flow
 
 Goal: Keep the homepage server-rendered and load all dashboard data from `lessons.json`.
@@ -233,6 +219,10 @@ Completed: added a server-side lesson stats utility with a pure stats function, 
 ### T05 - Add lesson timeline status helpers
 
 Completed: split lesson domain code into `src/lib/lessons/`, added timeline status helpers and month grouping, and verified timeline statuses and grouping against the current dataset.
+
+### T06 - Add minimal display formatting helpers
+
+Completed: added Rome-local lesson date, month, time range, and duration formatters using built-in `Intl` APIs with no new dependency.
 
 ## Later
 
